@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Theme Engine</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Beautiful theme engine with light / dark mode" />
+</head>
+
+<body>
+    <main class="app">
+        <header class="app-header">
+            <div class="brand">
+                <svg class="logo" viewBox="0 0 24 24" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="g" x1="0" x2="1">
+                            <stop offset="0" stop-color="#6c5ce7" />
+                            <stop offset="1" stop-color="#00b894" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="2" y="2" width="20" height="20" rx="6" fill="url(#g)"></rect>
+                    <path d="M7 14c1.5-3 5-3 6 0" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round">
+                    </path>
+                </svg>
+                <div>
+                    <h1>Theme Engine</h1>
+                    <p class="tagline">A smooth, stylish light ↔ dark theme switcher</p>
+                </div>
+            </div>
+
+            <button id="theme-toggle" class="toggle-btn" aria-pressed="false" title="Toggle theme">
+                Loading…
+            </button>
+        </header>
+
+        <section class="hero">
+            <div class="card">
+                <h2>Preview</h2>
+                <p>Toggle between beautiful light and dark appearances. Your preference is saved to&nbsp;localStorage.
+                </p>
+
+                <div class="preview-grid">
+                    <div class="preview-item">
+                        <h3>Typography</h3>
+                        <p>A quick preview of headings and paragraph text to demonstrate contrast and spacing.</p>
+                    </div>
+
+                    <div class="preview-item">
+                        <h3>Controls</h3>
+                        <div class="controls">
+                            <input type="text" placeholder="Type something…" />
+                            <button class="cta">Primary action</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="note">
+                Tip: This theme follows the OS preference by default and remembers your selection.
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
