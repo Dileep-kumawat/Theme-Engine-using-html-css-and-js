@@ -8,7 +8,7 @@ A smooth, stylish, lightweight **Light ↔ Dark Mode** theme engine with automat
 
 ## 🔗 Live Demo
 
-- 👉 **Live Site:** []()
+- 👉 **Live Site:** [https://dileep-kumawat.github.io/Theme-Engine-using-html-css-and-js/](https://dileep-kumawat.github.io/Theme-Engine-using-html-css-and-js/)
 - 👉 **Demo Video:** [click to watch](./demo.mp4)
 
 ---
@@ -91,7 +91,7 @@ The user’s selection is remembered across sessions.
 ### **Clone the project**
 
 ```bash
-git clone 
+git clone https://github.com/Dileep-kumawat/Theme-Engine-using-html-css-and-js.git
 cd theme-engine
 ```
 
